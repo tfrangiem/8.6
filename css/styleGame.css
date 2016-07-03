@@ -1,0 +1,123 @@
+/* StyleSheet Game / Exercise 8.6 */
+
+
+/* Here is the style of the entire table */
+table {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 510px;
+	height: 200px;
+	background-image: url(../images/dots.jpg);
+	font-size:40px;
+	border: 1px solid black;
+	text-shadow: 2px 5px white;
+}
+
+
+/* In the HTML the table has a class assigned. This will make the table center */
+.centered-table {
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+/* Only the content in the tags th and td are goint have the same style */
+th, td {
+    padding: 15px;
+    text-align: center;
+	color:blue;
+}
+
+/* An id was given to the box where the message is going to show */
+#messageBox {
+	width: 360px;
+	height: 50px;
+	color:blue;
+	text-align: center;
+	font-size:25px;
+	border: 5px double orange;
+	text-shadow: 2px 5px white;
+	background-color: transparent;
+}
+
+/* An id was given to the box where the user is going to insert the number */
+#numBox {
+	width: 35px;
+	height: 35px;
+	color:blue;
+	text-align: center;
+	font-size:25px;
+	border: 3px dashed black;
+
+}
+
+/* When the user hover the numBox to insert a number it will change color */
+#numBox:hover {
+	background-color: #ffffb3;
+}
+
+/* Put some style to the Try button */
+#nSubmitted {
+	width: 45px;
+	height: 30px;
+	color:green;
+	text-align: center;
+	font-size:15px;
+	border: 2px solid orange;
+}
+
+#nSubmitted:hover {
+	background-color: #b3ffec;
+}
+
+/* Some style when the button is clicked */
+#nSubmitted:active {
+	background-color: #b3c6ff;
+	color: white;
+}
+
+/* Stats the style of the buttons that will be created */
+#container{ 
+	height:50px;
+	width: 50px;
+	border-radius:15px;
+	box-shadow: 5px 5px 5px grey;
+	text-shadow:3px 3px grey;
+	background: linear-gradient(top, #b3c6ff, #b3ffec);
+	background: linear-gradient(to top, #b3c6ff, #b3ffec);
+	color:white;
+	font-family:Tahoma;
+	font-size:35px;
+	text-align:center;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+/* This style will give some movements to the buttons */
+#container:hover{
+	transform: translate(5px, 10px);
+	transform: translate(5px, 10px);
+}        
+	
+#txtB{
+	width: 45px;
+	height: 30px;
+	color:green;
+	text-align: center;
+	border: 2px solid orange;
+}
+
+#btnLoop{
+	width: 120px;
+	height: 30px;
+	color:green;
+	text-align: center;
+	font-size:15px;
+	border: 2px solid green;
+	background-color:transparent;
+}
+
+#btnLoop:active {
+	background-color: orange;
+	color: white;
+}

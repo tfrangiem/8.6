@@ -1,0 +1,45 @@
+<!-- HTML Game / Exercise 8.6 -->
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Game</title>
+	<link rel="stylesheet" type="text/css" href="css/styleGame.css">
+	<script src="js/jsGame.js"></script>
+</head>
+
+<body>
+
+<!-- Let's make a form with a table -->
+	<form onSubmit="" name="nGame">
+		<table class="centered-table" id="mainTable">
+			<tr>
+				<td>
+					Guess the number!
+				</td>
+			</tr>
+			<tr>
+				<td>
+<!-- First imput is to show a message, the second is for the user enter the numberand the third is the button to see if the number entered is correct -->
+				<input id="messageBox" type="text" name="messageBox" size="25" maxlength="40" value="from 1 to 100"><br>
+<!-- You can specify how many characters the user is allow to enter by writing maxlength and then the number-->
+				<input id="numBox" type="text" name="guess" size="2" maxlength="2" value="">
+<!-- To execute JS to validate the number you have to set the onClick Event Attribute-->
+				<input id="nSubmitted" type="button" value="Try!" onClick='process(rndNum)'>
+				</td>
+			</tr>
+			<tr>
+				<td>
+
+				</td>
+			</tr>
+		</table>
+	</form>
+				<input type="text" id="txtB" class="center"/>
+				<input type="submit" value="Create Buttons" id="btnLoop" class="center"/>
+				<p id="buttons"></p>		
+</body>
+
+
+</html>
